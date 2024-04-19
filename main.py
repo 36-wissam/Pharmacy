@@ -8,10 +8,9 @@ import tkinter as tk
 
 
 
-
 HOST_DB='localhost'
 USER_DB='root'
-PASSWORD_DB='2003'
+PASSWORD_DB='Wissam-/@Ll9987yy|\_c@&a'
 PHARMACY_DB_NAME='PharmacyDB'
 LOGIN_DB_NAME='loginDB'
 
@@ -144,9 +143,9 @@ def view_medicines():
         tree.heading("#2", text="Expiry Date", anchor=tk.CENTER)
         tree.column("#2", width=100)
         tree.heading("#3", text="Purchase Price", anchor=tk.CENTER)
-        tree.column("#3", width=100)
+        tree.column("#3", width=150)
         tree.heading("#4", text="Selling Price", anchor=tk.CENTER)
-        tree.column("#4", width=100)
+        tree.column("#4", width=150)
         tree.heading("#5", text="Quantity", anchor=tk.CENTER)
         tree.column("#5", width=100)
 
